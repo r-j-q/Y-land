@@ -1,0 +1,10 @@
+土地拍卖接口文档：https://console-docs.apipost.cn/preview/f0fa59b2f38ed82b/655ea0f49d54b35f?target_id=e6fc6bda-27d2-4be6-b38b-e7e1118d2f8f
+后台管理系统：https://tdpm.shningmi.com/admin/login.html
+账号密码：admin
+
+眼睛接口文档：https://console-docs.apipost.cn/preview/f9e5e6a8b25202c8/1ba4576586bd34bd
+
+程序开发群：
+小程序账号nmgsanniu@163.com
+密码:sanniu163
+还要注册一个公众号服务号 未提供注册新邮箱
