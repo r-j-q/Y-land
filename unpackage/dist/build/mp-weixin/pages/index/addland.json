@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "出让土地承包权",
+  "usingComponents": {
+    "rich-text-editor": "/pages/signin/editor"
+  }
+}

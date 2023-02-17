@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages  
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/signcontract/czcontractlist",
+			"style": {
+				"navigationBarTitleText": "我的合同"
+			}
+		},
+		{
+			"path": "pages/index/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/signcontract/contractlist",
+			"style": {
+				"navigationBarTitleText": "我的合同"
+			}
+		},
+		{
+			"path": "pages/signcontract/contract",
+			"style": {
+				"navigationBarTitleText": "合同"
+			}
+		},
+		{
+			"path": "pages/signin/editor",
+			"style": {
+				"navigationBarTitleText": "文本框"
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/addland",
+			"style": {
+				"navigationBarTitleText": "出让土地承包权"
+			}
+		},
+		{
+			"path": "pages/index/sold",
+			"style": {
+				"navigationBarTitleText": "我出让的土地承包权"
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/modification",
+			"style": {
+				"navigationBarTitleText": "修改土地承包权"
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/rule",
+			"style": {
+				"navigationBarTitleText": "规则"
+			}
+		},
+		{
+			"path": "pages/signin/signin",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/identity",
+			"style": {
+				"navigationBarTitleText": "我的身份信息"
+			}
+		},
+		{
+			"path": "pages/index/details",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/index/morerecord",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/index/participate",
+			"style": {
+				"navigationBarTitleText": "我参与的拍卖"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	        "color": "#7A7E83", // tab 上的文字默认颜色
+	        "selectedColor": "#3cc51f", // tab 上的文字选中时的颜色
+	        "borderStyle": "black", // tabbar 上边框的颜色，可选值 black/white
+	        "backgroundColor": "#ffffff",  // tab 的背景色
+	        "list": [{ // 最少2个、最多5个 tab
+	            "pagePath": "pages/index/index", // 页面路径，必须在 pages 中先定义
+	            "iconPath": "static/index/12.png", // 图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px
+	            "selectedIconPath": "static/index/13.png", // 选中时的图片路径
+	            "text": "首页" // tab 上按钮文字
+	        }, 
+			{ // 最少2个、最多5个 tab
+			    "pagePath": "pages/index/my", // 页面路径，必须在 pages 中先定义
+			    "iconPath": "static/index/14.png", // 图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px
+			    "selectedIconPath": "static/index/15.png", // 选中时的图片路径
+			    "text": "个人中心" // tab 上按钮文字
+			}]
+	    },
+	"uniIdRouter": {}
+}

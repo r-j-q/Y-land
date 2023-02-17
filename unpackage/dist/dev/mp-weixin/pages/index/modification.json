@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "修改土地承包权",
+  "usingComponents": {
+    "rich-text-editor": "/pages/signin/editor"
+  }
+}

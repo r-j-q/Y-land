@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/signcontract/czcontractlist",
+    "pages/index/my",
+    "pages/signcontract/contractlist",
+    "pages/signcontract/contract",
+    "pages/signin/editor",
+    "pages/index/addland",
+    "pages/index/sold",
+    "pages/index/modification",
+    "pages/index/rule",
+    "pages/signin/signin",
+    "pages/index/identity",
+    "pages/index/details",
+    "pages/index/morerecord",
+    "pages/index/participate"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index/12.png",
+        "selectedIconPath": "static/index/13.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/my",
+        "iconPath": "static/index/14.png",
+        "selectedIconPath": "static/index/15.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于导航路线"
+    }
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}
