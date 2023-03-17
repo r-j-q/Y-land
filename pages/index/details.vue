@@ -61,7 +61,7 @@
 			</view>
 			<view class="record" v-for="(item,index) in cjrecord" :key="index" v-if="index <3">
 				<view class="img"><image :src=item.headimg mode="aspectFill"></image></view>
-				<view class="name">{{item.nickname}}</view>
+				<view class="name">{{index+1}}号</view>
 				<view :class="index == 0 ? 'money' : 'money1'">￥{{item.price}}</view>
 				<view :class="[index== 0? 'frbutton':'stbutton']">
 					<view v-if="index == 0">领先</view>

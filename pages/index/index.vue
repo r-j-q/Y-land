@@ -161,9 +161,10 @@ import { showToast } from '../../config/common';
 			}
 			// console.log(this.tity,"this.tity");
 		},
+		 
 		methods: {
 			
-			//获取省方便  下面省市区..操作
+			//获取省方便  下面省市区..操作 pages/index/details
 			opaddress(id) {
 				if (this.rceptlog == true) {
 					this.$common.showToast("网络缓慢，请勿重复点击");
